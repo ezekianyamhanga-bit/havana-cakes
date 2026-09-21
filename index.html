@@ -10,7 +10,7 @@
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:Arial,Helvetica,sans-serif;line-height:1.55}a{text-decoration:none;color:inherit}.wrap{width:min(1180px,92%);margin:auto}
 header{position:sticky;top:0;z-index:50;background:#fffafdF5;backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
 .nav{height:82px;display:flex;align-items:center;gap:26px}.logo{width:84px;height:84px;object-fit:contain;margin-top:8px}.links{display:flex;align-items:center;gap:30px;margin-left:auto;font-weight:600}.links a:first-child{color:var(--pink);position:relative}.links a:first-child:after{content:"";position:absolute;height:3px;border-radius:5px;background:var(--pink);left:0;right:0;bottom:-12px}.order-btn,.pink-btn{background:var(--pink);color:#fff;border:0;border-radius:999px;padding:14px 24px;font-weight:800;display:inline-flex;align-items:center;justify-content:center;gap:9px;cursor:pointer;box-shadow:0 12px 25px #d82d7825}
-.hero{background:linear-gradient(110deg,#fff4f9 0%,#ffeaf3 54%,#ffd9e8 100%);overflow:hidden}.hero-grid{display:grid;grid-template-columns:.9fr 1.1fr;min-height:620px;align-items:center}.hero-copy{padding:60px 20px 60px 0}.eyebrow{color:var(--pink);font-weight:900;letter-spacing:.13em;font-size:.82rem}.hero h1{font:700 clamp(3rem,6vw,5.7rem)/.98 Georgia,serif;margin:15px 0 24px;letter-spacing:-.04em}.hero p{font-size:1.13rem;color:var(--muted);max-width:600px}.hero-image{height:100%;min-height:620px;position:relative;padding:20px 0}.hero-image img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;object-position:52% center;transform:translateX(-5%) scale(.92);mix-blend-mode:multiply}.hero-actions{margin-top:28px}.benefits{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border-top:1px solid #e9cdd9;background:#fff}.benefit{padding:25px 15px;text-align:center;border-right:1px solid #efdbe4}.benefit:last-child{border-right:0}.benefit .ico{font-size:1.6rem}.benefit strong{display:block;margin-top:4px}.benefit span{color:var(--muted);font-size:.85rem}
+.hero{background:linear-gradient(110deg,#fff4f9 0%,#ffeaf3 54%,#ffd9e8 100%);overflow:hidden}.hero-grid{display:grid;grid-template-columns:.9fr 1.1fr;min-height:620px;align-items:center}.hero-copy{padding:60px 20px 60px 0}.eyebrow{color:var(--pink);font-weight:900;letter-spacing:.13em;font-size:.82rem}.hero h1{font:700 clamp(3rem,6vw,5.7rem)/.98 Georgia,serif;margin:15px 0 24px;letter-spacing:-.04em}.hero p{font-size:1.13rem;color:var(--muted);max-width:600px}.hero-image{height:100%;min-height:620px;position:relative;padding:20px 0}.hero-image img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;object-position:center center;transform:translateX(-3%) scale(.96);mix-blend-mode:multiply}.hero-actions{margin-top:28px}.benefits{display:grid;grid-template-columns:repeat(4,1fr);gap:0;border-top:1px solid #e9cdd9;background:#fff}.benefit{padding:25px 15px;text-align:center;border-right:1px solid #efdbe4}.benefit:last-child{border-right:0}.benefit .ico{font-size:1.6rem}.benefit strong{display:block;margin-top:4px}.benefit span{color:var(--muted);font-size:.85rem}
 section{padding:70px 0}.quote{background:#fff;border:1px solid var(--line);border-radius:28px;padding:32px 42px;display:flex;align-items:center;justify-content:space-between;gap:25px;box-shadow:0 10px 35px #8f315d0a}.quote p{font:700 1.65rem/1.35 Georgia,serif;margin:0}.quote small{font:600 1rem Arial;color:var(--ink)}.quote-mark{font-size:3.5rem;color:var(--pink)}
 .head{text-align:center;margin:0 auto 36px;max-width:760px}.head h2{font:700 clamp(2.1rem,4vw,3.3rem)/1.05 Georgia,serif;color:var(--deep);margin:8px 0 12px}.head p{color:var(--muted);font-size:1.05rem}.sizes{background:#fff}.size-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.size-card{background:#fff;border:1px solid var(--line);border-radius:24px;padding:18px;text-align:center;box-shadow:0 12px 30px #8f315d0b}.cake-photo{height:180px;border-radius:18px;overflow:hidden;background:linear-gradient(#fff,#fff5f8);display:flex;align-items:center;justify-content:center}.cake-photo img{width:100%;height:100%;object-fit:cover}.size-card h3{font:700 1.65rem Georgia,serif;margin:14px 0 3px}.size-card p{margin:0 0 16px;color:var(--muted)}.custom{margin-top:20px;background:#fff1f7;border:1px solid #f2c9d9;border-radius:24px;padding:25px;display:flex;gap:18px;align-items:center}.custom .bigico{font-size:2.5rem}.custom h3{margin:0;color:var(--deep);font-size:1.25rem}.custom p{margin:4px 0 0;color:var(--muted)}
 .safety{background:#fff}.safety-box{background:#fff1f7;border:1px solid #f2c9d9;border-radius:24px;padding:27px;display:flex;gap:18px;align-items:flex-start}.safety-icon{font-size:2.4rem}.safety h3{margin:0;color:var(--deep);font-size:1.35rem}.safety p{margin:7px 0 0;color:var(--muted)}
@@ -18,6 +18,31 @@ section{padding:70px 0}.quote{background:#fff;border:1px solid var(--line);borde
 footer{background:#2b1722;color:#fff;padding:34px 0}.foot{display:flex;justify-content:space-between;gap:20px;align-items:center}.muted{color:#dcbfcc;font-size:.9rem}
 @media(max-width:900px){.links{display:none}.hero-grid{grid-template-columns:1fr}.hero-image{min-height:400px}.hero-image img{transform:none}.hero-copy{padding-bottom:35px}.benefits{grid-template-columns:repeat(2,1fr)}.benefit:nth-child(2){border-right:0}.benefit:nth-child(-n+2){border-bottom:1px solid #efdbe4}.order-grid{grid-template-columns:1fr}}
 @media(max-width:560px){.nav{height:72px}.logo{width:70px;height:70px}.hero h1{font-size:3.1rem}.hero-image{min-height:320px}.hero-image img{transform:none}.benefits,.size-grid,.row{grid-template-columns:1fr}.benefit{border-right:0;border-bottom:1px solid #efdbe4!important}.quote{padding:24px;display:block}.quote-mark{display:none}.custom,.safety{align-items:flex-start}}
+
+/* Havana Cakes premium cake carousel */
+.cake-carousel{position:relative;width:100%;height:100%;min-height:620px;display:flex;align-items:center;justify-content:center;padding:24px}
+.cake-stage{position:relative;width:min(620px,100%);height:570px;border-radius:34px;overflow:hidden;display:flex;align-items:center;justify-content:center}
+.cake-slide{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;object-position:center;opacity:0;transform:scale(.98);transition:opacity .8s ease,transform 1s ease;mix-blend-mode:multiply}
+.cake-slide.active{opacity:1;transform:scale(1)}
+.cake-float{animation:cakeFloat 5s ease-in-out infinite}
+@keyframes cakeFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+.carousel-arrow{position:absolute;top:50%;transform:translateY(-50%);z-index:3;width:48px;height:48px;border:0;border-radius:50%;background:#ffffffdd;color:var(--deep);font-size:1.8rem;cursor:pointer;box-shadow:0 10px 25px #8f315d20}
+.carousel-arrow.prev{left:8px}.carousel-arrow.next{right:8px}
+.carousel-dots{position:absolute;z-index:4;bottom:14px;left:50%;transform:translateX(-50%);display:flex;gap:8px}
+.carousel-dot{width:9px;height:9px;border:0;border-radius:50%;background:#f4b7cf;cursor:pointer;padding:0}
+.carousel-dot.active{background:var(--pink);transform:scale(1.25)}
+.cake-photo{height:245px;padding:10px;background:linear-gradient(145deg,#fff,#fff3f8)}
+.cake-photo img{width:100%;height:100%;object-fit:contain;object-position:center}
+@media(max-width:800px){
+ .cake-carousel{min-height:430px;padding:8px}
+ .cake-stage{height:420px}
+ .carousel-arrow{width:40px;height:40px;font-size:1.4rem}
+ .size-grid{grid-template-columns:1fr}
+ .cake-photo{height:270px}
+}
+@media(min-width:801px) and (max-width:1050px){
+ .cake-stage{height:500px}
+}
 </style>
 </head>
 <body>
@@ -33,7 +58,20 @@ footer{background:#2b1722;color:#fff;padding:34px 0}.foot{display:flex;justify-c
 <h1>Utamu unaoendana na tukio lako.</h1>
 <p>Havana Cakes inawahudumia wateja wa <strong>Kigamboni</strong> na maeneo ya Dar es Salaam kwa keki zinazoendana na tukio lako. Tunakusanya mahitaji yako kwanza, halafu tunawasiliana nawe kuthibitisha oda.</p>
 <div class="hero-actions"><a class="pink-btn" href="#oda">🛒 Weka Oda Sasa&nbsp; ›</a></div></div>
-<div class="hero-image"><img src="hero-cake.png" alt="Keki ya Havana Cakes"></div>
+<div class="hero-image">
+  <div class="cake-carousel" aria-label="Picha za keki za Havana Cakes">
+    <div class="cake-stage cake-float">
+      <img class="cake-slide active" src="cake-slide-1.png" alt="Keki ya Havana Cakes">
+      <img class="cake-slide" src="cake-slide-2.png" alt="Keki ya Havana Cakes">
+    </div>
+    <button class="carousel-arrow prev" type="button" aria-label="Picha iliyopita">‹</button>
+    <button class="carousel-arrow next" type="button" aria-label="Picha inayofuata">›</button>
+    <div class="carousel-dots">
+      <button class="carousel-dot active" type="button" aria-label="Picha ya kwanza"></button>
+      <button class="carousel-dot" type="button" aria-label="Picha ya pili"></button>
+    </div>
+  </div>
+</div>
 </div></section>
 
 <div class="benefits"><div class="benefit"><div class="ico">🚚</div><strong>Utoaji Kigamboni</strong><span>na Dar es Salaam</span></div><div class="benefit"><div class="ico">🛡️</div><strong>Keki Safi</strong><span>na Bora</span></div><div class="benefit"><div class="ico">♡</div><strong>Kwa Kila</strong><span>Tukio Maalum</span></div><div class="benefit"><div class="ico">👥</div><strong>Wateja Wetu</strong><span>Wameridhika</span></div></div>
@@ -42,9 +80,9 @@ footer{background:#2b1722;color:#fff;padding:34px 0}.foot{display:flex;justify-c
 
 <section id="keki" class="sizes"><div class="wrap"><div class="head"><div class="eyebrow">CHAGUA UKUBWA</div><h2>Weka oda kulingana na ukubwa unaohitaji.</h2><p>Chagua ukubwa wa keki unaohitaji kisha endelea na oda.</p></div>
 <div class="size-grid">
-<div class="size-card"><div class="cake-photo"><img src="hero-cake.png" alt="Nusu kilo"></div><h3>Nusu Kilo</h3><p>Ukubwa 0.5kg</p><strong style="display:block;font-size:1.25rem;color:var(--deep);margin-bottom:14px">TSh 25,000</strong><a class="pink-btn" href="#oda">Weka Oda</a></div>
-<div class="size-card"><div class="cake-photo"><img src="hero-cake.png" alt="Kilo 1"></div><h3>Kilo 1</h3><p>Ukubwa 1kg</p><strong style="display:block;font-size:1.25rem;color:var(--deep);margin-bottom:14px">TSh 40,000</strong><a class="pink-btn" href="#oda">Weka Oda</a></div>
-<div class="size-card"><div class="cake-photo"><img src="hero-cake.png" alt="Kilo 1.5"></div><h3>Kilo 1.5</h3><p>Ukubwa 1.5kg</p><strong style="display:block;font-size:1.25rem;color:var(--deep);margin-bottom:14px">TSh 60,000</strong><a class="pink-btn" href="#oda">Weka Oda</a></div>
+<div class="size-card"><div class="cake-photo"><img src="cake-slide-1.png" alt="Nusu kilo"></div><h3>Nusu Kilo</h3><p>Ukubwa 0.5kg</p><strong style="display:block;font-size:1.25rem;color:var(--deep);margin-bottom:14px">TSh 25,000</strong><a class="pink-btn" href="#oda">Weka Oda</a></div>
+<div class="size-card"><div class="cake-photo"><img src="cake-slide-2.png" alt="Kilo 1"></div><h3>Kilo 1</h3><p>Ukubwa 1kg</p><strong style="display:block;font-size:1.25rem;color:var(--deep);margin-bottom:14px">TSh 40,000</strong><a class="pink-btn" href="#oda">Weka Oda</a></div>
+<div class="size-card"><div class="cake-photo"><img src="cake-slide-1.png" alt="Kilo 1.5"></div><h3>Kilo 1.5</h3><p>Ukubwa 1.5kg</p><strong style="display:block;font-size:1.25rem;color:var(--deep);margin-bottom:14px">TSh 60,000</strong><a class="pink-btn" href="#oda">Weka Oda</a></div>
 </div>
 <div class="custom"><div class="bigico">🎂</div><div><h3>Unahitaji ukubwa mwingine?</h3><p>Kama unahitaji ujazo wowote tofauti na hizi chaguo, <strong>wasiliana nasi kwa bei</strong>. Havana Cakes itakujulisha bei na maelezo zaidi.</p></div></div>
 </div></section>
@@ -76,5 +114,29 @@ e.preventDefault();const d=new FormData(this),no='HC-'+Date.now().toString().sli
 const msg='🍰 *ODA MPYA — HAVANA CAKES*%0A*Namba:* '+no+'%0A*Jina:* '+encodeURIComponent(d.get('name'))+'%0A*Simu:* '+encodeURIComponent(d.get('phone'))+'%0A*Aina:* '+encodeURIComponent(d.get('type'))+'%0A*Ukubwa:* '+encodeURIComponent(d.get('size'))+'%0A*Ladha:* '+encodeURIComponent(d.get('flavor'))+'%0A*Tarehe:* '+encodeURIComponent(d.get('date'))+'%0A*Design:* '+encodeURIComponent(d.get('design')||'Hakuna')+'%0A*Ujumbe:* '+encodeURIComponent(d.get('message')||'Hakuna')+'%0A*Eneo:* '+encodeURIComponent(d.get('location'));
 document.getElementById('success').innerHTML='<strong>Oda iko tayari.</strong> WhatsApp inafunguka; bonyeza Send ili itumwe.';document.getElementById('success').classList.add('show');window.open('https://wa.me/255744405220?text='+msg,'_blank');
 });
+</script>
+
+<script>
+(function(){
+  const slides=[...document.querySelectorAll('.cake-slide')];
+  const dots=[...document.querySelectorAll('.carousel-dot')];
+  const prev=document.querySelector('.carousel-arrow.prev');
+  const next=document.querySelector('.carousel-arrow.next');
+  let index=0, timer;
+
+  function show(n){
+    index=(n+slides.length)%slides.length;
+    slides.forEach((s,i)=>s.classList.toggle('active',i===index));
+    dots.forEach((d,i)=>d.classList.toggle('active',i===index));
+  }
+  function restart(){
+    clearInterval(timer);
+    timer=setInterval(()=>show(index+1),5200);
+  }
+  prev?.addEventListener('click',()=>{show(index-1);restart()});
+  next?.addEventListener('click',()=>{show(index+1);restart()});
+  dots.forEach((d,i)=>d.addEventListener('click',()=>{show(i);restart()}));
+  restart();
+})();
 </script>
 </body></html>
